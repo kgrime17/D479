@@ -1,0 +1,344 @@
+:root {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    grid-area: header;
+    background-image: url("images/SeasideHeader.jpg");
+    vertical-align: center;
+    font-size: 300%;
+    height: 200px;
+    color:#000000;
+}
+
+header img {
+    position: relative;
+    left: -650px;
+    top: 10px;
+}
+
+header #content {
+    position: relative;
+    top: -120px;
+    color:#000000;
+    text-shadow: 2px 2px 0px #ffffff;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+header a:link {
+    color:black;
+}
+
+header a:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+/* ------------------ Header Above, Home Below ------------------ */
+
+#intro {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+.learnMore {
+    position: relative;
+    top: 102px
+}
+
+.banner {
+    height: 200px;
+    background-image: url(images/Attractions.jpg);
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+
+.banner h1 {
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.banner a:hover {
+    text-decoration: none;
+}
+
+.banner a:hover h1 {
+    color: #ffe9a4;
+    text-decoration: none;
+}
+
+.attractionsColumn {
+    float: left;
+    width: 50%;
+}
+
+.attractionsRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#attractionsRow p {
+    position: relative;
+    top: -10px;
+}
+
+.attractionsRow2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#attractionsRow2 p {
+    position: relative;
+    top: -10px;
+}
+
+#attractionsRow2 {
+    margin-bottom: 700px;
+}
+
+#bookNow {
+    background-image: url(images/BookNow.jpg);
+    margin: 380px 400px 100px 400px;
+    height: 100px;
+}
+
+/* ------------------ Home Above, Attractions Below ------------------ */
+
+#breadcrumb {
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+#breadcrumb div a {
+    color: #486685;
+}
+
+#breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.page2ColumnLeft {
+    float: left;
+    width: 68%;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.page2ColumnRight {
+    float: right;
+    width: 25%;
+    height: 380px;
+    border: 5px solid #486685;
+    padding: 10px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#page2Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.LEFT {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.RIGHT {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin: 0px 20px;
+    text-align: left;
+}
+
+.willThisWork {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.month {
+    background-color: #486685;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.weekdays {
+    padding-right: 35px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #486685;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 10px;
+    background-color: #ffe9a4;
+    border: 3px solid #486685;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 0px;
+}
+
+.calText {
+    padding-top: 10px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.LEFT2 {
+    float: left;
+    width: 75%;
+    text-align: right;
+}
+
+.RIGHT2 {
+    float: left;
+    width: 20%;
+    margin: 20px;
+}
+
+.place2 {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.LEFT3 {
+    float: left;
+    width: 20%;
+    margin: 30px;
+}
+
+.RIGHT3 {
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+.place3 {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.BNCol {
+    float: left;
+    width: 50%;
+}
+
+.BNRow {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ------------------ Attractions Above, Book Now Button Below ------------------ */
+
+#bookNow div {
+    position: relative;
+    top: -25px;
+}
+
+#bookNow a {
+    position: relative;
+    top: -50px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-size: xx-large;
+}
+
+#bookNow a:hover {
+    color:#ffe9a4;
+    text-decoration: none;
+}
+
+/* ------------------ Book Now Button Above, Book Now Page Below ------------------ */
+
+.BNCol {
+    float: center;
+    width: 50%;
+}
+
+.BNRow {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#BNRow {
+    margin: 20px 400px;
+    padding-bottom: 20px;
+}
+
+#hotels {
+    margin-bottom: 80px;
+}
+
+#bullet {
+    text-align: left;
+}
+
+#transportOnTaniti {
+    margin-bottom: 50px;
+}
+
+/* ------------------ Book Now Page Above, Footer Below ------------------ */
+
+footer {
+    grid-area: footer;
+    margin: 0px 20px 10px 20px;
+    text-align: left;
+}
+
+footer div a {
+    color: #486685;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
