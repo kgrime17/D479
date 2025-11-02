@@ -171,6 +171,10 @@ header a:hover {
     clear: both;
 }
 
+.hikes {
+    padding: 0px 20px 0px 50px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -258,6 +262,11 @@ ul {
     text-align: left;
 }
 
+.details {
+    position: relative;
+    top: -20px;
+}
+
 .place3 {
     content: "";
     display: table;
@@ -311,7 +320,7 @@ ul {
 }
 
 #BNRow {
-    margin: 20px 400px;
+    margin: 20px 380px;
     padding-bottom: 20px;
 }
 
